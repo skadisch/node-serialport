@@ -1,5 +1,5 @@
 import { ErrorCallback, OpenOptions, SerialPortStream, StreamOptions } from '@serialport/stream'
-import { autoDetect, AutoDetectTypes, OpenOptionsFromBinding } from '@serialport/bindings-cpp'
+import { autoDetect, AutoDetectTypes, OpenOptionsFromBinding } from '../../../../bindings-cpp'
 
 const DetectedBinding = autoDetect()
 
